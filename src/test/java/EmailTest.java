@@ -6,8 +6,8 @@ class EmailTest {
 
     @Test
     public void EmailTest(){
-     Email.getEmail().setCadastrado("Email@6eceb130");
-     assertEquals("Email@6eceb130",Email.getEmail().getCadastrado());
+     Email.getEmail().setCadastrado("Email");
+     assertEquals("Email",Email.getEmail().getCadastrado());
 
 
 
